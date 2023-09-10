@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+body {
+  display: grid;
+  grid-template-columns: 250px 700px 350px;
+  /* background-color: rgb(235, 235, 235); */
+  background-color: black;
+  padding: 0px 65px;
+  gap: 0px 65px;
+}
+.sidebar {
+  display: flex;
+  flex-direction: column;
+}
+.profile {
+  background: white;
+  width: 250px;
+  font-family: "Poppins", sans-serif;
+  border-radius: 20px;
+}
+.profile h1 {
+  font-size: 23px;
+}
+.profile p {
+  font-size: 15px;
+}
+
+.profile-header {
+  background-color: rgb(82, 92, 105);
+  text-align: center;
+  border-radius: 18px 18px 0px 0px;
+  background-image: url("https://marketplace.canva.com/EAE2cQaUHVA/1/0/1600w/canva-black-minimal-motivation-quote-linkedin-banner-HoRi-2buBWk.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.profile-header img {
+  border-radius: 50%;
+  height: 4.5rem;
+  position: relative;
+  top: 25px;
+}
+
+.profile-body p {
+  color: grey;
+}
+
+.profile-info {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.profile-info h1 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.profile-info p {
+  font-size: 14px;
+  margin-top: 0;
+  color: grey;
+}
+
+.profile-stats {
+  padding: 5px;
+}
+
+.profile-stats p {
+  margin: 10px 0;
+  font-size: 12px;
+}
+
+hr {
+  margin: 0;
+}
+
+.profile-premium {
+  padding: 5px;
+}
+
+.profile-premium p {
+  font-size: 12px;
+  margin: 10px 0;
+}
+
+.profile-premium h4 {
+  font-size: 15px;
+  margin: 10px 0;
+}
+
+.profile-items {
+  padding: 5px;
+}
+
+.profile-items p {
+  font-size: 12px;
+}
+
+.metric span {
+  color: blue;
+  float: right;
+}
+
+.sidebar-bottom {
+  background: white;
+  width: 250px;
+  font-family: "Poppins", sans-serif;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+.groups-and-recent {
+  padding: 15px;
+}
+
+.groups-and-recent > div h5 {
+  font-size: 12px;
+  margin: 9px 0px;
+}
+
+.groups-and-recent > div h4 {
+  font-size: 10px;
+  color: grey;
+  margin: 5px;
+}
+
+.groups-and-recent > div i {
+  color: rgb(83, 83, 83);
+  font-size: 0.8rem;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  margin-top: 0.7rem;
+  gap: 0.5rem;
+  margin: 0;
+}
+
+#group-text {
+  font-size: 13px;
+  color: #0a66c2;
+  margin-top: 25px;
+}
+
+.show-more {
+  color: grey;
+  font-size: 11px;
+  margin: 0px 15px;
+}
+
+.events {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 15px;
+}
+
+.events p {
+  margin: 0;
+  font-size: 12px;
+}
+
+.events i {
+  color: rgb(83, 83, 83);
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.discover {
+  font-size: 15px;
+  text-align: center;
+  color: gray;
+  padding-bottom: 20px;
+}
+
+.posts {
+  background-color: white;
+  height: 300px;
+  margin: 0 20px;
+  border-radius: 12px;
+}
+.posts h4 {
+  margin: 10px 0 15px 0;
+  padding: 13px;
+}
+
+.news {
+  background-color: white;
+  height: 400px;
+  font-family: "Poppins", sans-serif;
+  padding: 13px;
+  border-radius: 12px;
+}
+.news-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.news-header h4 {
+  margin: 10px 0 15px 0;
+}
